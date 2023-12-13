@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+}
+
+.left-navbar{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    margin-left: 40px;
+    margin-right: 35px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    margin-left: px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 5px 3px gainsboro;
+}
+
+input{
+    margin-left: 20px;
+    padding: 15px 400px 15px 0px;
+    border: none;
+}
+
+
+.search-icon{
+    padding: 11px 20px 11px 11px;
+}
+
+.mic img{
+    width: 14px;
+    margin-right: 10px;
+}
+
+.camera img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.lens img{
+    width: 20px;
+}
+
+
+.setting{
+    font-size: 19px;
+    margin-right: 25px;
+}
+
+.doted-menu img{
+    width: 16px;
+    margin-right: 25px;
+}
+
+.profile{
+    padding: 5px 8px;
+    font-size: 15px;
+    margin-right: 25px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 30px;
+}
+
+.table-list{
+    border-bottom: 1px solid gainsboro;
+}
+
+.table{
+    margin-left: 170px;
+    width: 45%;
+    height: 6vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.zoom-lens img{
+    width: 14px;
+}
+
+.box{
+    padding-left: 20px;
+}
+
+#tools{
+    padding-left: 160px;
+}
+
+.main-info{
+    height: auto;
+    width: 45%;
+    margin-left: 170px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blue;
+}
+
+
